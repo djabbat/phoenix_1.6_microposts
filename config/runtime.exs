@@ -15,9 +15,7 @@ if config_env() == :prod do
       """
 
   config :toy_app, ToyApp.Repo,
-    # ssl: true,
     # socket_options: [:inet6],
-    ssl: true,
     url: database_url,
     pool_size: String.to_integer(System.get_env("POOL_SIZE") || "10")
 
@@ -34,9 +32,6 @@ if config_env() == :prod do
       """
 
   config :toy_app, ToyAppWeb.Endpoint,
-  server: true,
-  http: [port: {:system, "PORT"}],
-  url: [host: System.get_env("APP_NAME") <> ".gigalixirapp.com", port: 443]
     http: [
       # Enable IPv6 and bind on all interfaces.
       # Set it to  {0, 0, 0, 0, 0, 0, 0, 1} for local network only access.
