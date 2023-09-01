@@ -1,6 +1,6 @@
 # ToyApp
 
-![image](https://github.com/djabbat/phoenix_initialize/assets/8047668/f4d49c73-214a-4df0-9b34-5b9dfba57b70)
+![image](https://github.com/djabbat/phoenix_microposts/assets/8047668/aebb6ed0-f211-41cc-be94-53b557ca4149)
 
 
 To start your Phoenix server:
